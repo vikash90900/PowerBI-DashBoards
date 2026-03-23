@@ -1,71 +1,82 @@
-# 📦 Amazon Sales Analytics Dashboard – Power BI
+# 📊 PhonePe Transaction Analytics Dashboard – Power BI
 
 ## 📌 Project Overview
 
-This project is an interactive Power BI dashboard built to analyze Amazon sales data. The dashboard provides a comprehensive view of sales performance, order status, fulfillment methods, delivery partners, and state-wise shipment distribution to support data-driven business decisions.
+This project is an end-to-end data analysis dashboard built in Power BI to analyze PhonePe transaction data. The dashboard provides insights into transaction amounts, payment success rates, failed payment reasons, and service-wise performance across Insurance, Loans, Money Transfers, and Recharge & Bills.
+
+The goal is to simulate a real-world fintech analytics use case and generate actionable business insights.
 
 ---
 
 ## 🎯 Objectives
 
-* Track overall sales performance
-* Analyze order and shipment status
-* Identify high-performing product categories
-* Compare fulfillment methods and delivery partners
-* Visualize state-wise shipping trends
+* Monitor total transaction volume and amount
+* Track successful vs failed payments
+* Analyze service-wise transaction performance
+* Identify major reasons for payment failures
+* Enable dynamic filtering using date slicers
 
 ---
 
-## 📊 Key Metrics & KPIs
+## 📂 Dataset Information
 
-* **Total Sales:** 78.5M
-* **Total Orders:** 128.9K
-* **Total Quantity Sold:** 120.5K
+The dataset includes:
+
+* User details (User ID, Age, Join Date)
+* Transaction details (Transaction ID, Amount, Date, Status)
+* Service categories (Insurance, Loans, Money Transfer, Recharge & Bills)
+* Failed payment reasons (Server Error, Insufficient Balance, Wrong Details, etc.)
 
 ---
 
-## 📈 Dashboard Features
+## 📈 Dashboard Structure
 
-### 1️⃣ Sales Overview
+### 1️⃣ Homepage Overview
 
-* KPI cards for Total Sales, Orders, and Quantity
-* Interactive date slicer for time-based analysis
+* Total Transaction Amount
+* Total Transactions
+* Payment Success vs Failure Ratio
+* Date Range Slicer
+* Service-wise summary metrics
 
-### 2️⃣ Category Analysis
+### 2️⃣ Service-Specific Pages
 
-* Category-wise sales distribution
-* Identification of top-performing product categories
+Separate dashboard pages for:
 
-### 3️⃣ Order & Shipment Status
+* Insurance
+* Loans
+* Money Transfers
+* Recharge & Bills
 
-* Breakdown of order status (Shipped, Cancelled, Pending, etc.)
-* Courier status tracking (On the Way, Delivered, Returned)
+Each page includes:
 
-### 4️⃣ Fulfillment & Delivery Analysis
+* Monthly Transaction Trend (Amount vs Month)
+* Service Contribution Analysis
+* Payment Status Distribution
 
-* Comparison of fulfillment types (Amazon vs Merchant)
-* Delivery partner performance insights
+### 3️⃣ Failed Payment Analysis
 
-### 5️⃣ Geographic Insights
-
-* State-wise shipping analysis across India
-* Identification of regions with highest order volume
+* Pie/Donut chart showing failure reasons
+* Department-wise failure breakdown
+* Interactive filtering by date and service
 
 ---
 
 ## ⚙️ Tools & Technologies
 
 * Power BI
-* DAX Measures
 * Data Modeling
-* Interactive Slicers & Filters
+* DAX Measures
+* Interactive Slicers
 * Data Visualization
 
 ---
 
-## 💡 Key Insights
+## 💡 Key Insights Generated
 
-* Identified top revenue-generating categories
-* Analyzed shipment bottlenecks through courier status
-* Compared fulfillment strategies for efficiency
-* Discovered high-demand states contributing to sales volume
+* Identified peak transaction months
+* Analyzed highest revenue-generating services
+* Tracked failure patterns and common error reasons
+* Compared departmental performance within selected date ranges
+
+
